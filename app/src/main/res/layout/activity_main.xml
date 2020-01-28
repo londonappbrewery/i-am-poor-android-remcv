@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#99ddff"
+    android:background="#b2bec3"
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
     <ImageView
@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="90sp"
+        android:layout_marginBottom="80sp"
         android:contentDescription="@string/image_description"
         app:srcCompat="@drawable/coal" />
 
@@ -25,12 +25,29 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="72dp"
-        android:text="@string/title"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="100dp"
+        android:text="@string/title1"
         android:textColor="@android:color/background_dark"
         android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104sp"
+        android:text="@string/title2"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView2"
@@ -38,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="180dp"
         android:text="@string/subtitle"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="25sp"

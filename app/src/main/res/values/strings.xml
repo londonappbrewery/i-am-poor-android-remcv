@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">I Am Poor</string>
-    <string name="title">I Am Poor</string>
+    <string name="title1">I am</string>
+    <string name="title2">poor</string>
     <string name="subtitle">This is a test for my second app\nAgain some text to test</string>
     <string name="image_description">Rock image</string>
 </resources>
